@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+ 
+ 
+  <html lang="en-us" style="background-color: #F0F0F0">
+
+<head> 
+
+<style type="text/css">
+
+ 
+ h1 {
+    border-width: 5px;	
+    border-style: ridge;
+    
+}
+ 
+ nav {
+    border-width: 5px;	
+    border-style: ridge;
+    
+}
+ 
+ body {
+     background-color: #C0C0C0;
+ }
+ 
+    .app {
+       display: -webkit-flex;
+        display: flex;
+    }
+    
+   /* element.style {
+        display: flex;
+   } */
+
+   .green-box {
+       background-color: #E0FFFF;
+       padding: 20px;
+       text-align: left;
+       border-style: solid;
+       border-color: blue;
+       border-width: 5px;
+   }
+   
+   .box {
+       <!-- background-color: blue; -->
+       padding: 5px;
+       border-style: solid;
+       border-color: blue;
+   }
+   
+    .injected-text {
+        padding: 20px;
+        text-align: center;
+    }
+ 
+ </style>
+ 
+ </head>
+ 
+ <body> 
+
+<div class="container-fluid"> 
+
+<div class="header" id="header id="static">
+   <div class="contact button">
+   </div>
+   <div class="page title" style="font-size: 26px">
+       <h1 align="center" id="wrapper">English Pronunciation Muscle Training</h1>
+   </div>
+</div>
+
+<nav class="nav with buttons" id="static" align="center">
+    <button class="btn"><a href="#home">Home</a></button>
+    <button class="btn"><a href="#howto">How to Practice</a></button>
+    <button class="btn"><a href="#rules">Rules for Pronunciation Training</a></button>
+    <button class="btn"><a href="#r,w">Rules for R & W</a></button>
+    <button class="btn"><a href="#l,th">Rules for L & Th</a></button>
+    <button class="btn"><a href="#f,v">Rules for F & V</a></button>
+    <button class="btn"><a href="#syl">Syllables in Action</a></button>
+    <button class="btn"><a href="#con">Conclusion</a></button>
+    <button class="btn"><a href="#stor">Audio Lessons</a></button>
+    </nav>
+
+<div class="body">
+    
+    <div class="pages">
+        
+        <div id="home" class="box">
+            <h2>Home</h2>
+            <div class="app" style="display: flex;">
+                <div class="green-box">I will teach you easy to remember rules for English.</div>
+                <div class="injected-text"><input type="text" style="text-align: center" placeholder="Video coming soon!"></div>
+                <!-- <iframe width="420" height="315" src="video link here">video coming soon</iframe> -->
+            </div>
+        </div>
+
+        <div id="howto" class= "box">
+            <h2>How to Practice</h2>
+            <div class="app" style="display: flex;">
+                <div class="green-box">Ordered list of speaking in the same manner as a wind instrument, following the rules to pronounce each difficult sound, drils to build into hte motor memory, and syllables as the key to native fluency.</div>
+                <div class="injected-text"><input type="text" style="text-align: center" placeholder="Video coming soon!"></div>
+                <!-- <iframe width="420" height="315" src="video link here">video coming soon</iframe> -->
+            </div>
+        </div>
+
+        <div class="rules" id="rules">
+            <h2>Rules for English Pronunciation Training</h2>
+        </div>
+
+        <div class="r&w" id="r,w">
+            <h2>Rules for Pronouncing R & W</h2>
+        </div>
+
+        <div class="l&th" id="l,th">
+            <h2>Rules for Pronouncing F & V</h2>
+        </div>
+
+        <div class="f&v" id="f,v">
+            <h2>Rules for Pronouncing L & Th</h2>
+        </div>
+    
+        <div class="syllables" id="syl">
+            <h2>Syllables in Action!</h2>
+        </div>
+    
+        <div class="conclusion" id="con">
+            <h2>Conclusion</h2>
+        </div>
+    
+        <div class="Audio Lessons" id="stor">
+            <h2>Audio Lesson</h2>
+        </div>
+    
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="copyright">
+</div>
+
+</div>
+
+</body>
+
+</html>
